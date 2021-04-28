@@ -1,0 +1,20 @@
+{
+  "name": "breaking-bad",
+  "version": "1.0.0",
+  "description": "Web information of characters of Breaking Bad",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js"
+  },
+  "keywords": [
+    "breaking",
+    "bad",
+    "tv",
+    "serie",
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "EstefanoC",
+  "license": "ISC"
+}
