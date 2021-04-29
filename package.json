@@ -4,7 +4,9 @@
   "description": "Web information of characters of Breaking Bad",
   "main": "src/index.js",
   "scripts": {
-    "callback": "node src/callbacks/index.js"
+    "callback": "node src/callbacks/index.js",
+    "promise": "node src/promise/index.js",
+    "async": "node src/async/index.js"
   },
   "keywords": [
     "breaking",
@@ -16,5 +18,8 @@
     "async"
   ],
   "author": "EstefanoC",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
