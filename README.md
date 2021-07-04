@@ -15,7 +15,7 @@ Información del proyecto    |   Information of proyect
 
 <br>
 
-[Ejemplo en vivo | Live example](https://estefanoc.github.io/breaking-Bad/ "Proyect Link")
+[Ejemplo en vivo | Live example](https://estefanoc.github.io/Breaking-Bad/ "Proyect Link")
 
 <br>
 
