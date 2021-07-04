@@ -1,0 +1,79 @@
+/* Body */
+*:focus-visible {
+  outline-color: var(--pri);
+}
+html {
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  font-family: 'aleo-light', Arial, Helvetica, sans-serif;
+}
+img {
+  -webkit-user-drag: none;
+}
+
+/* Font */
+@font-face {
+    font-family: 'aleo-regular';
+    src: url('../fonts/Aleo-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'aleo-bold';
+  src: url('../fonts/Aleo-Bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'aleo-light';
+  src: url('../fonts/Aleo-Light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Var */
+:root {
+  --pri: #e9b01e;
+  --sec: rgb(0,110,48);
+  --ter: rgba(9,69,59);
+  --comple: #dcdcdc;
+}
+
+/* Shorthand */
+.bold {
+  font-family: 'aleo-bold', 'Courier New';
+}
+.regular {
+  font-family: 'aleo-regular', 'Courier New', Courier, monospace;
+}
+.t-w {
+  color: whitesmoke;
+}
+.t-b {
+  color: rgb(5, 5, 0);
+}
+.block {
+  display: block;
+}
+.pr50 {
+  padding-right: 50%;
+}
+.big {
+  font-size: 2.5rem;
+}
+.medium {
+  font-size: 1.8rem;
+}
+.small {
+  font-size: 0.8rem;
+}
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, span::selection, img::selection, strong::selection, li::selection, q::selection{
+  background: var(--pri);
+  color: var(--comple);
+  text-shadow: 1px 1px black;
+}

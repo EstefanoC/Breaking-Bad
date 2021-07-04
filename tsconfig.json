@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "module": "es6",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@js/*": ["src/js/*"],
+      "@media/*": ["src/media/*"],
+      "@style/*": ["src/style/*"],
+      "@sass/*": ["src/style/sass/*"]
+    }
+  }
+}

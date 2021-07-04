@@ -3,6 +3,7 @@ const API = 'https://www.breakingbadapi.com/api/'
 const characters = 'characters'
 const episodes = 'episodes'
 const quotes = 'quotes'
+const random = 'character/random'
 
 const fetchData = async (urlApi) => {
     return new Promise((resolve, reject) => {
@@ -26,10 +27,9 @@ const fetchDataAsync = async (url) => {
         let data1 = await fetchData(`${url}${characters}`)
         let data2 = await fetchData(`${url}${episodes}`)
         let data3 = await fetchData(`${url}${quotes}`)
+        let data4 = await fetchData(`${url}${random}`)
 
-        console.log(data1[0]);
-        console.log(data2[0]);
-        console.log(data3[0]);
+        console.log(data4[0]);
     } catch (err) {
         console.error(err);
     }
