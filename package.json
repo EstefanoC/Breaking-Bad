@@ -6,9 +6,9 @@
   "scripts": {
     "start": "webpack serve --config webpackdev.config.js",
     "build": "webpack --config webpack.config.js",
-    "callback": "node src/js/callbacks/index.js",
-    "promise": "node src/js/promise/index.js",
-    "async": "node src/js/async/index.js"
+    "callback": "node src/fetchData/callbacks/index.js",
+    "promise": "node src/fetchData/promise/index.js",
+    "async": "node src/fetchData/async/index.js"
   },
   "keywords": [
     "breaking",
