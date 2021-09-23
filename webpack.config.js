@@ -41,7 +41,8 @@ module.exports = {
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
         useShortDoctype: true
-      }
+      },
+      favicon: './public/favicon.ico',
     }),
     new MiniCssExtractPlugin({
       filename: './assets/style/[name].[contenthash].css'
@@ -54,10 +55,6 @@ module.exports = {
             globOptions: {
               ignore: ["**/media/opening-bg.jpg", "**/media/bg-card-front.png", "**/media/bg-card-back.png", "**/media/bg-quotes.png", "**/media/characters-bg.jpg", "**/media/separator-decorate.png"]
             },
-          },
-          {
-            from: path.resolve(__dirname, "public", "favicon.ico"),
-            to: "[name].[contenthash].ico"
           }
       ]
     }),
